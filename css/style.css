@@ -73,8 +73,8 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
 }
 
 .cv_photo{
-    width: 150px;
-    height: 200px;
+    max-width: 150px;
+    min-width: 150px;
     background-color: aliceblue;
     z-index: 2;
 }
@@ -95,7 +95,6 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
 
 
 .cv_header_info{
-    
     padding: 32px 0 0 40px;
 }
 .cv_name{
@@ -166,14 +165,14 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
 .l_side{
     display: flex;
     flex-direction: column;
-    flex: 0 1 154px;
+    flex: 1 1 154px;
     margin-right: 15px;
 }
 
 .r_side{
     display: flex;
     flex-direction: column;
-    flex: 0 1 361px;
+    flex: 1 1 361px;
 }
 
 
